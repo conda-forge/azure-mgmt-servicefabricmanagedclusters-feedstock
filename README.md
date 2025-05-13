@@ -32,14 +32,14 @@ Current release info
 Installing azure-mgmt-servicefabricmanagedclusters
 ==================================================
 
-Installing `azure-mgmt-servicefabricmanagedclusters` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `azure-mgmt-servicefabricmanagedclusters` from the `conda-forge/label/azure-mgmt-servicefabricmanagedclusters_rc` channel can be achieved by adding `conda-forge/label/azure-mgmt-servicefabricmanagedclusters_rc` to your channels with:
 
 ```
-conda config --add channels conda-forge
+conda config --add channels conda-forge/label/azure-mgmt-servicefabricmanagedclusters_rc
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `azure-mgmt-servicefabricmanagedclusters` can be installed with `conda`:
+Once the `conda-forge/label/azure-mgmt-servicefabricmanagedclusters_rc` channel has been enabled, `azure-mgmt-servicefabricmanagedclusters` can be installed with `conda`:
 
 ```
 conda install azure-mgmt-servicefabricmanagedclusters
@@ -54,26 +54,26 @@ mamba install azure-mgmt-servicefabricmanagedclusters
 It is possible to list all of the versions of `azure-mgmt-servicefabricmanagedclusters` available on your platform with `conda`:
 
 ```
-conda search azure-mgmt-servicefabricmanagedclusters --channel conda-forge
+conda search azure-mgmt-servicefabricmanagedclusters --channel conda-forge/label/azure-mgmt-servicefabricmanagedclusters_rc
 ```
 
 or with `mamba`:
 
 ```
-mamba search azure-mgmt-servicefabricmanagedclusters --channel conda-forge
+mamba search azure-mgmt-servicefabricmanagedclusters --channel conda-forge/label/azure-mgmt-servicefabricmanagedclusters_rc
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search azure-mgmt-servicefabricmanagedclusters --channel conda-forge
+mamba repoquery search azure-mgmt-servicefabricmanagedclusters --channel conda-forge/label/azure-mgmt-servicefabricmanagedclusters_rc
 
 # List packages depending on `azure-mgmt-servicefabricmanagedclusters`:
-mamba repoquery whoneeds azure-mgmt-servicefabricmanagedclusters --channel conda-forge
+mamba repoquery whoneeds azure-mgmt-servicefabricmanagedclusters --channel conda-forge/label/azure-mgmt-servicefabricmanagedclusters_rc
 
 # List dependencies of `azure-mgmt-servicefabricmanagedclusters`:
-mamba repoquery depends azure-mgmt-servicefabricmanagedclusters --channel conda-forge
+mamba repoquery depends azure-mgmt-servicefabricmanagedclusters --channel conda-forge/label/azure-mgmt-servicefabricmanagedclusters_rc
 ```
 
 
