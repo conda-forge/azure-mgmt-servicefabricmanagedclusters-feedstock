@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: azure-mgmt-servicefabricmanagedclusters
-  version: 2.1.0b2
+  version: 2.1.0b1
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/azure_mgmt_servicefabricmanagedclusters-${{ version }}.tar.gz
-  sha256: 28e00bf7de1932eddb6d7c27b325e0095ece10cc35ddd658749f9f6d7eede3a6
+  sha256: 2b16b93c8446e13372e28b378f635da1ad2aa631d9547b31b9fa3b7bc56d0f63
 
 build:
   number: 0
@@ -25,9 +25,9 @@ requirements:
   run:
     - python >=${{ python_min }}
     - isodate >=0.6.1
+    - typing-extensions >=4.6.0
     - azure-common >=1.1
     - azure-mgmt-core >=1.3.2
-    - typing-extensions >=4.6.0
 
 tests:
   - python:
